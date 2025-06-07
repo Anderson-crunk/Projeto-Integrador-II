@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Painel de Ocorrências Abertas</title>
+</head>
+<body>
+  <h1>Ocorrências Abertas</h1>
+
+  <ul>
+    <li>
+      <strong>Ocorrência 1</strong> - Furto em loja - 01/06/2025
+      <form action="/ocorrencias/finalizar" method="POST" style="display:inline;">
+        <input type="hidden" name="id" value="1">
+        <button type="submit">Finalizar</button>
+      </form>
+    </li>
+    <li>
+      <strong>Ocorrência 2</strong> - Roubo de veículo - 02/06/2025
+      <form action="/ocorrencias/finalizar" method="POST" style="display:inline;">
+        <input type="hidden" name="id" value="2">
+        <button type="submit">Finalizar</button>
+      </form>
+    </li>
+  </ul>
+
+  <a href="/dashboard">Voltar ao Dashboard</a>
+</body>
+</html>
