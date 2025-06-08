@@ -45,6 +45,8 @@ SisGeR é um sistema web desenvolvido com Node.js e Express para gerenciar ocorr
 │   └── painel-ocorrencias.html
 │
 └── server.js
+└── package.json
+└── package-lock.json
 ```
 
 ---
